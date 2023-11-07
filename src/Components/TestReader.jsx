@@ -54,7 +54,7 @@ function TestReader() {
   return (
     <div className=" w-[100%] h-[100vh] bg-[#637ea3] flex justify-center items-center flex-col ">
       <div className="w-[90%] h-[60%] lg:w-[50%] lg:h-[60%] md:w-[60%] md:h-[40%] bg-[white] text-black flex justify-center items-center flex-col rounded-lg p-0 m-0">
-        <h1 className="text-2xl text-[#ff2963] font-medium mt-0 mb-5 lg:text-4xl lg:mb-10 md:text-3xl">
+        <h1 className="text-xl text-[#ff2963] font-bold mt-0 mb-5 lg:text-4xl lg:mb-10 md:text-3xl">
           Text To Speech
           <span className="text-[#273b50] underline ml-3">Converter</span>
         </h1>
@@ -62,7 +62,7 @@ function TestReader() {
           placeholder="Write anything here..."
           value={text}
           onChange={(e) => setText(e.target.value)}
-          className="w-80 h-48 lg:w-[80%] md:w-[90%] text-[#4f4f4f] border-2 text-base outline-0 p-4 rounded-md resize-none mb-5 bg-transparent"
+          className="w-72 h-48 lg:w-[80%] md:w-[90%] text-[#4f4f4f] border-2 text-base outline-0 p-4 rounded-md resize-none mb-5 bg-transparent"
         ></textarea>
         <div className=" flex items-center flex-col gap-5">
           <select
